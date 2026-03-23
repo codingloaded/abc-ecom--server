@@ -1,0 +1,36 @@
+# Ignore artifacts:
+build
+coverage
+
+/.vscode
+/node_modules
+./dist
+# Next.js specific
+.next
+out
+*.pem
+
+# Dependencies
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Testing
+.nyc_output
+jest.config.js
+
+# Misc
+.DS_Store
+*.pem
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env.local
+.env.*.local
+
+# Vercel
+.vercel
